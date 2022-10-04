@@ -103,6 +103,7 @@ letter-spacing: 3px;
 
   table {
     border-collapse: collapse;
+    font-size: 12px;
   }
 
   table, th, td {
