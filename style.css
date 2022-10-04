@@ -8,7 +8,7 @@
 }
 
 * {
-  font-size: 16px;
+  font-size: 14px;
 }
 
   h1 {
@@ -18,9 +18,7 @@
 
 
   table {
-   
-    margin:auto;
-    margin-top:10px;
+    border-collapse: collapse;
   }
 
   table, th, td {
@@ -83,18 +81,18 @@
 
 }
 
+
 @media only screen and (max-width:480px) {
   
   body {
     text-align: center;
-    background-color:#2C4251;
-    color:white;
-    padding:30px;
+    background-color:red;
+   
+   
 }
 
 * {
-font-size: 12px;
-letter-spacing: 3px;
+  font-size: 50px !important;
 }
 
   h1 {
@@ -105,12 +103,7 @@ letter-spacing: 3px;
 
   table {
     border-collapse: collapse;
-    font-size: 12px;
-  }
 
-  table, th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
   }
 
   td {
@@ -153,10 +146,10 @@ letter-spacing: 3px;
   }
 
   img {
-    height:100px;
-    width:100px;
     border-radius:50%;
     box-shadow: 0 0 20px black;
+    width: 200px;
+    height: 200px;
 
   }
 
@@ -166,10 +159,8 @@ letter-spacing: 3px;
     padding: 0px 5px;
   }
 
-}
+  p {
+    color: red !important;
+  }
 
-p {
-  margin: auto;
-  margin-top:25px;
-  width: 90vw;
 }
