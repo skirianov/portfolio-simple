@@ -7,6 +7,9 @@
    
 }
 
+* {
+  font-size: 14px;
+}
 
   h1 {
     font-size:20px;
@@ -88,9 +91,10 @@
 }
 
 * {
-  font-size:12px;
-  }
-  
+font-size: 12px;
+letter-spacing: 3px;
+}
+
   h1 {
     font-size:20px;
     letter-spacing: 3px;
